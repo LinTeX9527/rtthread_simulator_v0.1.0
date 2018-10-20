@@ -29,6 +29,8 @@
 
 int main(void)
 {
+    rt_kprintf("Hello World!\r\n");
+    rt_kprintf("!!! user main() over !!!\r\n");
     return 0;
 }
 
